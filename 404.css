@@ -25,12 +25,8 @@
     height:25vh;
     width:100%;
     max-height: 25vh;
+    font-weight: bolder;
     line-height: 14px;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
-}
-
-.terminal {
-    --color: rgba(256, 256, 256, 1);
-    font-weight: bolder;
 }
