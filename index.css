@@ -1,0 +1,32 @@
+.container {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    margin-left: 15%;
+    padding-top: 20px;
+    padding-left: 20px;
+    min-height: 100%;
+    margin-bottom: -25vh;
+}
+
+.main div {
+    padding: 4px;
+}
+
+.push {
+    height: 25vh;
+}
+
+#term {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:25vh;
+    width:100%;
+    max-height: 25vh;
+    font-weight: bolder;
+    line-height: 14px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
