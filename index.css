@@ -3,34 +3,31 @@
 }
 
 .main {
-    margin-left: 15%;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 10%;
     min-height: 100%;
-    margin-bottom: -25vh;
 }
 
-.main div {
-    padding: 4px;
+.center {
+    text-align: center;
 }
 
-.push {
-    height: 25vh;
+.icon {
+    padding: 5px;
+    font-size: larger;
+    color: black;
 }
 
-#term {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:25vh;
-    width:100%;
-    max-height: 25vh;
-    line-height: 14px;
-    font-size: 12px;
-    font-family: 'Courier New', Courier, monospace;
+.icon-link {
+    padding: 10px;
+    color: black;
+    
 }
 
-.terminal {
-    --color: rgba(256, 256, 256, 1);
-    font-weight: bolder;
+.icon-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.intro {
+    padding-top: 20px;
 }
