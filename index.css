@@ -48,3 +48,7 @@
 .navbar a:hover {
     color: black;
 }
+
+.icondiv {
+    font-size: smaller;
+}
