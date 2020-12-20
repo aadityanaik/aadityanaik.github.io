@@ -48,3 +48,15 @@
 .navbar a:hover {
     color: black;
 }
+
+.pubdiv {
+    padding-top: 10px;
+}
+
+.publinks {
+    font-size: 0.9em;
+}
+
+.pubauths {
+    font-size: 0.9em;
+}
