@@ -3,7 +3,7 @@
 }
 
 .main {
-    padding-top: 10%;
+    padding-top: 5%;
     min-height: 100%;
 }
 
@@ -30,4 +30,13 @@
 
 .intro {
     padding-top: 20px;
+}
+
+.icon.icon-li {
+    color: #2867b2;
+}
+
+.profile {
+    width: 20%;
+    padding: 20px;
 }
