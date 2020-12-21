@@ -7,8 +7,8 @@
     <title>Aaditya Naik</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
-    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="publications.css">
+    <script src="publications.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -42,32 +42,34 @@
     </div>
     <div class="container container-fluid main">
         <div class="row">
-            <div class="col-12 center">
-                <h1>Aaditya Naik</h1>
+            <div class="col-md-12 center">
+                <h1>Projects</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 center">
-                <img src="assets/profile.jpeg" class="rounded profile" alt="profile image">
+            <div class="col-md-12 prjdiv">
+                    <h4>GenSynth</h4>
+                    <div>
+                        GenSynth is a genetic algorithm which synthesizes Datalog queries given a set of input data and a (optionally partial)
+                        set of output data. Unlike most logic synthesis tools, GenSynth does not require language biases and can synthesize
+                        challenging problems with competitive performance.
+                    </div>
+                    <div class="prjlinks">
+                        Click <a href="https://gensynth.cis.upenn.edu/" target="_blank">here</a> to learn more.
+                    </div>
+                    <hr>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 center icondiv">
-                <a href="mailto:asnaik@seas.upenn.edu" class="icon-link" target="_blank"><i class="fas fa-envelope icon"></i>asnaik@seas.upenn.edu</a>
-                |
-                <a href="https://www.github.com/aadityanaik" class="icon-link" target="_blank"><i class="fab fa-github icon"></i>aadityanaik</a>
-                |
-                <a href="https://www.linkedin.com/in/aaditya-naik" class="icon-link" target="_blank"><i class="fab fa-linkedin icon icon-li"></i>aaditya-naik</a>
-                |
-                <a href="assets/CV.pdf" class="icon-link"><i class="fas fa-file-download icon" target="_blank"></i>Resume</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 intro">
-                Welcome to my corner of the internet! I am a first-year PhD student at the <a href="https://www.upenn.edu">University of Pennsylvania</a>
-                advised by Prof. <a href="https://www.cis.upenn.edu/~mhnaik/">Mayur Naik</a>.
-                My research interests span Machine Learning, Software Engineering and Programming Languages and aim to help
-                improve software quality.
+            <div class="col-md-12 prjdiv">
+                    <h4>Code2Inv</h4>
+                    <div>
+                        Code2Inv is a general end-to-end deep learning framework which learns a valid loop invariant for any given verification task.
+                        It is based on the Counter-Example Guided Inductive Synthesis (CEGIS) paradigm and leverages deep reinforcement learning
+                        to infer invariants in a manner similar to how a human expert would.
+                    </div>
+                    <div class="prjlinks">
+                        Click <a href="https://www.code2inv.org/" target="_blank">here</a> to learn more.
+                    </div>
+                    <hr>
             </div>
         </div>
     </div>
