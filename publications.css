@@ -94,3 +94,7 @@ td.right {
     padding-right: 10px;
     border-right: 1px solid lightgray;
 }
+
+.icondiv {
+    font-size: smaller;
+}
