@@ -11,6 +11,22 @@
     text-align: center;
 }
 
+.center table {
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+    table-layout: fixed;
+    /* border: 1px solid black; */
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
 .icon {
     padding: 5px;
     font-size: larger;
@@ -63,4 +79,18 @@
 
 .decls {
     font-size: small;
+}
+
+td {
+    padding: 2px;
+}
+
+td.left {
+    padding-left: 10px;
+    border-left: 1px solid lightgray;
+}
+
+td.right {
+    padding-right: 10px;
+    border-right: 1px solid lightgray;
 }
