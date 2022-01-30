@@ -37,17 +37,19 @@
 }
 
 .profile {
-    width: 250px;
+    width: 225px;
     padding: 20px;
 }
 
 .navbar a {
     color: black;
+    font-size: 1.25em;
 }
 
 .navbar a:hover {
     color: black;
 }
+
 
 .icondiv {
     font-size: smaller;

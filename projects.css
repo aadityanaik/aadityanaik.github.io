@@ -1,5 +1,5 @@
 .container {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .main {
@@ -43,6 +43,7 @@
 
 .navbar a {
     color: black;
+    font-size: 1.25em;
 }
 
 .navbar a:hover {
@@ -51,6 +52,12 @@
 
 .prjdiv {
     padding-top: 10px;
+}
+
+.prjtitle {
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
 }
 
 .prjlinks {

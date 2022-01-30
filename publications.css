@@ -1,5 +1,5 @@
 .container {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .main {
@@ -35,13 +35,9 @@
 
 .icon-link {
     padding: 10px;
-    color: black;
+    /* color: black; */
+    font-weight: 500;
     
-}
-
-.icon-link:hover {
-    color: black;
-    text-decoration: none;
 }
 
 .intro {
@@ -59,6 +55,7 @@
 
 .navbar a {
     color: black;
+    font-size: 1.25em;
 }
 
 .navbar a:hover {
@@ -75,6 +72,12 @@
 
 .pubauths {
     font-size: 0.9em;
+}
+
+.pubtitle {
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
 }
 
 .decls {
@@ -96,5 +99,5 @@ td.right {
 }
 
 .icondiv {
-    font-size: smaller;
+    font-size: 0.95em;
 }
