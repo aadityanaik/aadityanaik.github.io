@@ -1,14 +1,21 @@
-.container {
-    font-family: 'Montserrat';
+html {
+    scroll-padding-top: 70px;
 }
 
-.main {
-    padding-top: 2%;
-    min-height: 100%;
+body {
+    padding-bottom: 30px;
+    padding-top: 70px;
 }
 
 .center {
     text-align: center;
+    align-items: center;
+}
+
+
+.main {
+    /* padding-top: 2%; */
+    min-height: 100%;
 }
 
 .center table {
@@ -34,7 +41,7 @@
 }
 
 .icon-link {
-    padding: 10px;
+    padding: 5px;
     /* color: black; */
     font-weight: 500;
     
@@ -50,12 +57,12 @@
 
 .profile {
     width: 250px;
-    padding: 20px;
+    padding-right: 50px;
 }
 
 .navbar a {
     color: black;
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 .navbar a:hover {
@@ -75,7 +82,7 @@
 }
 
 .pubtitle {
-    font-size: 1.1em;
+    font-size: 1.075em;
     color: black;
     font-weight: bold;
 }
@@ -100,4 +107,8 @@ td.right {
 
 .icondiv {
     font-size: 0.95em;
+}
+
+.navbar-brand {
+    font-size: 1.5em !important;
 }

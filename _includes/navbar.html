@@ -1,0 +1,26 @@
+<div class="navbar fixed-top navbar-expand-sm" style="background-color: white; width: 1000px; margin-left: auto; margin-right: auto; border-bottom: 1px solid #333333;">
+  <div class="container container-fluid" style="max-width: 1000px;">
+    <a class="navbar-brand nav-link" href="{{ site.url }}">{{ site.title }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        {% for item in site.navigation %}
+          {% assign current = nil %}
+          {% if page.url == item.link%}
+            {% assign current = 'active' %}
+          {% endif %}
+            <li class="nav-item {{ current }}">
+              <a class="nav-link" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+            </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <br>
+  </div>
+
+  <!-- <div class="container container-fluid" style="max-width: 1000px;">
+    <hr style="margin: 0;">
+  </div> -->
+</div>
