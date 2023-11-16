@@ -1,7 +1,7 @@
 title: "Aaditya Naik"
 email: asnaik@seas.upenn.edu
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "https://www.seas.upenn.edu/~asnaik" # the base hostname & protocol for your site
+baseurl: "" # the base hostname & protocol for your site
 navigation:
   - name: About Me
     link: /#about
