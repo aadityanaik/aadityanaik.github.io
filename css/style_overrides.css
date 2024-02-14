@@ -69,12 +69,17 @@ body {
     color: black;
 }
 
+#publications {
+    padding-bottom: 10px;
+}
+
 .pubdiv {
-    padding-top: 10px;
+    /* padding-top: 20px; */
 }
 
 .publinks {
     font-size: 0.9em;
+    padding-bottom: 10px;
 }
 
 .pubauths {
@@ -82,9 +87,9 @@ body {
 }
 
 .pubtitle {
-    font-size: 1.05em;
-    color: black;
-    font-weight: bold;
+    font-size: 1.15em;
+    margin-bottom: 5px;
+    padding-top: 5px;
 }
 
 .decls {
