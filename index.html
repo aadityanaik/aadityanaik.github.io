@@ -37,132 +37,105 @@ menu_weight: 1
 
 <hr style="color: black; height: 1px; background-color:black;" />
 
-<div class="row">
-	<div class="col-md-12" id="about">
-		<h3>About Me</h3>
+<div id="about">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>About Me</h3>
+		</div>
 	</div>
+
+	<p> Welcome to my corner of the internet! I am Aaditya Naik, a Ph.D. candidate in Computer and Information Science at the <a href="https://www.upenn.edu">University of Pennsylvania</a>, advised by Prof. <a href="https://www.cis.upenn.edu/~mhnaik/">Mayur Naik</a>. My goal is to teach models to reason like humans—through <em>abstract thought</em>, <em>creative construction</em>, and <em>guided exploration</em>. To that end, my research spans Scalable Neurosymbolic Programming, Differentiable Reasoning, Program Synthesis, and AI for SE.</p>
 </div>
 
-	<p> Welcome to my corner of the internet! I am a final year PhD student at the <a href="https://www.upenn.edu">University of Pennsylvania</a>
-	advised by Prof. <a href="https://www.cis.upenn.edu/~mhnaik/">Mayur Naik</a>.</p>
-	
-	<p>
-	My research interests span Programming Languages and Machine Learning.
-	The overarching goal of my research is to enable machine learning practitioners to write
-	neurosymbolic programs that can scale to highly complex tasks and datasets using intuitive and expressive interfaces.
-	My work focuses on combining symbolic reasoning with deep learning to address tasks requiring both perception and
-	logic-based reasoning, while ensuring scalability through techniques like vectorized computations and GPU-accelerated differentiable reasoning.</p>
-	
-	<p>
-	I am also interested in developing techniques to help machine learning practitioners effectively
-	understand where their models fail and identify ways to fix them. My other research interests include designing program
-	synthesis techniques to streamline software analysis, bug finding, and code generation, as well as exploring compiler-based optimization
-	strategies for large-scale machine learning frameworks in challenging domains such as image processing, text understanding,
-	and multimodal reasoning.</p>
 
 <hr style="color: black; height: 1px; background-color:black;" />
 
-<div class="row">
-	<div class="col-md-12" id="news">
-		<h3>News</h3>
-		<ul>
-			<li>
-				Our paper "Dolphin: A Programmable Framework for Scalable Neurosymbolic Learning" has been accepted to
-				<span style="font-weight: bold;">ICML 2025</span>! I will be presenting the poster on July 15th in Vancouver.
-			</li>
-			<li>
-				I am currently a <span style="font-weight: bold;">GenAI PhD Research Intern</span> at Oracle Cloud Infrastructure.
-			</li>
-			<li>
-				I presented our paper "TorchQL: A Programming Framework for Integrity Constraints in Machine Learning" in
-				the proceedings of <span style="font-weight: bold;">OOPSLA 2024</span>.
-				Try out TorchQL <a href="https://github.com/TorchQL/torchql" target="_blank">here</a>, and read our
-				paper <a href="https://arxiv.org/abs/2308.06686" target="_blank">here</a>.
-			</li>
-			<li>
-				Our work "LLM Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation" is published
-				in the <span style="font-weight: bold;">IEEE Transactions on Software Engineering</span>. Read the article
-				<a href="https://ieeexplore.ieee.org/document/10606356" target="_blank">here</a>.
-			</li>
-			<li>
-				I am very grateful to be awarded the 2023 <span style="font-weight: bold;">Google PhD Fellowship</span>
-				in Programming Technology and Software Engineering.
-			</li>
-		</ul>
+<div id="news">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>News</h3>
+			<ul>
+				<li>
+					<span style="font-weight: bold;">I am on the academic job market for positions starting Fall 2025.</span>
+				</li>
+				<li>
+					Our paper "Dolphin: A Programmable Framework for Scalable Neurosymbolic Learning" has been accepted to
+					<span style="font-weight: bold;">ICML 2025</span>! I will be presenting the poster on July 15th in Vancouver.
+				</li>
+				<li>
+					I am currently a <span style="font-weight: bold;">GenAI PhD Research Intern</span> at Oracle Cloud Infrastructure.
+				</li>
+				<li>
+					I am very grateful to be awarded the 2023 <span style="font-weight: bold;">Google PhD Fellowship</span>
+					in Programming Technology and Software Engineering.
+				</li>
+			</ul>
+		</div>
 	</div>
 </div>
 
 <hr style="color: black; height: 1px; background-color:black;" />
 
-<!-- <div class="row">
-	<div class="col-md-12" id="research">
-		<h3>Research</h3>
-		<p>
-			While machine learning has seen several advances in recent years, with models achieving state-of-the-art performance
-			on a variety of tasks, analyzing and understanding these models and their failures is an ad-hoc and often chaotic process.
-			This is exacerbated by the lack of tools and frameworks that allow practitioners to interactively explore their models
-			in a manner that is intuitive and easily accessible.
-			My research aims to bridge this gap by developing novel techniques and tools to allow the systemic analysis
-			and debugging of machine learning models.
-		</p>
-
-		<p>
-			<h4>TorchQL</h4>
-			One of the key challenges in analyzing machine learning models is the lack of a uniform interface to interact with them.
-			While there are several tools that allow practitioners to analyze their models, these tools are often limited in scope
-			and are not easily extensible to new models or tasks.
-			To address this, I am developing a novel querying language called <a href="https://github.com/TorchQL/torchql">TorchQL</a>
-			that allows practitioners to directly query their models and datasets in a style akin to querying frameworks
-			like MongoDB and SQL. This allows practitioners to craft intricate and complex queries that characterize the
-			errors in their models and can generalize to identify similar errors in unseen data as well as in other models.
-			These queries can identify a range of issues, from simple classification errors to violations of domain
-			knowledge, biases and labeling errors in the training data, distribution shift, and more.
-			Read more about TorchQL in our paper <a href="https://arxiv.org/abs/2308.06686">here</a>.
-		</p>
-		<p>
-			<h4>SQRL</h4>
-			In addition to TorchQL, my framework SQRL (pronounced <span style="font-style: italic;">squirrel</span>) uses
-			data-driven program synthesis techniques to characterize the errors in machine learning models in terms of
-			grounded concepts and relations intuitive to practitioners.
-			You can read more about SQRL in our blog post <a href="https://debugml.github.io/SQRL/" target="_blank">here</a>.
-		</p>
-		<p>
-			<h4>Program Synthesis</h4>
-			I am also interested in using machine learning to develop program synthesis techniques, specifically
-			Inductive Logic Programming (ILP) and applying them to a variety of tasks, including software analysis,
-			bug finding, and code generation.
-		</p>
-		<p>
-			If any of this interests you, I am actively looking for collaborators and would love to chat!
-			Feel free to reach out to me by email <a href="mailto:asnaik@seas.upenn.edu" target="_blank">here</a>.
-		</p>
-	</div>
-</div> -->
-
-<!-- <hr style="color: black; height: 1px; background-color:black;" /> -->
-
-	
-<div class="row">
-	<div class="col-md-12" id="publications">
-		<h3>Publications</h3>
-	</div>
-</div>
-	
-<!-- <div class="row">
-	<div class="col-md-12 pubdiv" >
-		<h4>Recent Manuscripts</h4>
-	</div>
-	<div class="col-md-12 pubdiv">
-		<h5 class="pubtitle">Where's the Bug? Attention Probing for Scalable Fault Localization</h5>
-		<div class="pubauths">
-			Adam Stein, Arthur Wayne, <span style="font-weight: bold">Aaditya Naik</span>, Mayur Naik, Eric Wong
+<div id="research">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>Research Interests</h3>
 		</div>
-		<div class="publinks">
-			Submitted to ICML 2025.
+	</div>
+
+	<div class="row g-4">
+		<div class="col-md-6">
+			<div class="card h-100 border-0">
+				<div class="card-body p-4">
+						<h5 class="card-title text-primary">🧠 Scaling Neurosymbolic Learning</h5>
+						<p class="card-text">Integrating reasoning as a core component of machine learning architectures. My research develops scalable techniques for complex tasks and modern datasets, including programmable frameworks for neurosymbolic training (<a href="https://arxiv.org/pdf/2410.03348" target="_blank"><strong>Dolphin</strong></a>) and efficient symbolic reasoning during inference (<a href="https://arxiv.org/abs/2308.06686" target="_blank"><strong>TorchQL</strong></a>, <a href="https://arxiv.org/pdf/2303.01433.pdf" target="_blank"><strong>SQRL</strong></a>).</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card h-100 border-0">
+				<div class="card-body p-4">
+					<h5 class="card-title text-success">💻 ML for Program Analysis</h5>
+					<p class="card-text">Enhancing ML models' capabilities to reason over programs and synthesize code. This encompasses flexible relational representations for source code (<a href="https://openreview.net/pdf?id=WQc075jmBmf" target="_blank"><strong>CodeTrek</strong></a>), interactive code exploration environments (<a href="assets/papers/uist21_sporq.pdf" target="_blank"><strong>Sporq</strong></a>), and deep learning frameworks for program verification (<a href="assets/papers/cav20_code2inv.pdf" target="_blank"><strong>Code2Inv</strong></a>).</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card h-100 border-0">
+				<div class="card-body p-4">
+					<h5 class="card-title text-warning">🎯 Logic-Informed RL</h5>
+					<p class="card-text">Addressing the challenge of sparse rewards in teaching LLMs complex reasoning. My research explores using symbolic programs to provide effective partial rewards for guiding policy learning, as demonstrated in <a href="assets/papers/cav20_code2inv.pdf" target="_blank"><strong>Code2Inv</strong></a>. I am actively expanding this work to develop logic-informed reward systems for RL-based post-training of large language models.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card h-100 border-0">
+				<div class="card-body p-4">
+					<h5 class="card-title text-info">🔬 AI for Science</h5>
+					<p class="card-text">Applying neurosymbolic methods to scientific discovery by integrating logic and symbolic reasoning with neural networks. This includes developing methods to incorporate domain knowledge—physics, medical information—into LLMs for improved trustworthiness in data-sparse scientific fields. My work on scalable logical verification (<a href="https://arxiv.org/pdf/2410.03348" target="_blank"><strong>Dolphin</strong></a>) and program synthesis provides a strong foundation for this direction.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row mt-4">
+		<div class="col-12 text-center">
+			<p class="mb-0" style="color: #6b7280; font-size: 1rem;">
+				If you're interested in working with me or discussing any of these research areas, please feel free to reach out via email at <a href="mailto:asnaik@seas.upenn.edu" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 600;">asnaik@seas.upenn.edu</a>. I'm always excited to explore potential collaborations and new research directions.
+			</p>
 		</div>
 	</div>
 </div>
-<br> -->
+
+<hr style="color: black; height: 1px; background-color:black;" />
+
+<div id="publications">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>Publications</h3>
+		</div>
+	</div>
+	
 <div class="row">
 	<div class="col-md-12 pubdiv" >
 		<h4>Conference Papers</h4>
