@@ -16,6 +16,7 @@ body {
 .main {
     /* padding-top: 2%; */
     min-height: 100%;
+    max-width: 950px !important;
 }
 
 .center table {
