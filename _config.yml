@@ -8,8 +8,6 @@ navigation:
     link: /#about
   - name: News
     link: /#news
-  - name: Research
-    link: /#research
   - name: Publications
     link: /#publications
 # Build settings
