@@ -5,7 +5,7 @@ html {
 body {
     padding-bottom: 30px;
     padding-top: 70px;
-    font-size: 0.9rem; /* Base font size reduced */
+    font-size: 1.0rem; /* Base font size reduced */
     line-height: 1.5;
 }
 
@@ -57,14 +57,34 @@ body {
     color: #2867b2;
 }
 
+.profile-container {
+    border-radius: 15px;
+    overflow: hidden;
+    display: inline-block;
+    width: 200px;
+    margin-right: 50px;
+    line-height: 0;
+}
+
 .profile {
-    width: 250px;
-    padding-right: 50px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-info {
+    font-size: 0.9em;
+}
+
+.profile-name {
+    font-size: 1.2em;
 }
 
 .navbar a {
     color: black;
-    font-size: 1.1em; /* Restored to original size */
+    font-size: 1.2em;
 }
 
 .navbar a:hover {
@@ -135,9 +155,23 @@ td.right {
 h1 { font-size: 1.8rem; font-weight: 600; margin-bottom: 0.3rem; }
 h2 { font-size: 1.5rem; font-weight: 600; margin-bottom: 0.2rem; }
 h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.2rem !important; margin-top: 0 !important; } /* Consistent spacing */
-h4 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.1rem; margin-top: 0.3rem; }
+h4 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem !important; margin-top: 0.3rem; }
 h5 { font-size: 1rem; font-weight: 600; margin-bottom: 0.1rem; }
 h6 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.1rem; }
+
+/* Publication category headings - make them stand out */
+.pub-category {
+    /* font-size: 1.25rem !important; */
+    font-weight: 700 !important;
+    font-style: italic;
+    color: #1e40af;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.8rem !important;
+    padding-left: 0.75rem;
+    border-left: 6px solid #1e40af;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
 
 p { 
     margin-bottom: 0.5rem !important; /* Consistent paragraph spacing */
@@ -198,6 +232,28 @@ a:hover {
     background-color: #1d4ed8;
 }
 
+/* Button-style links for research section */
+#research a {
+    display: inline-block;
+    padding: 1px 4px;
+    margin: 0 1px;
+    background-color: #ffffff;
+    border: 1px solid #bfdbfe;
+    border-radius: 3px;
+    color: #1e40af;
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+#research a:hover {
+    background-color: #1e40af;
+    border-color: #112e6c;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* Navbar and icon links - consistent animated link styling */
 .navbar {
     padding-top: 4px !important; /* tighter navbar spacing */
@@ -219,6 +275,7 @@ a:hover {
     text-decoration: none;
     position: relative;
     transition: color 0.2s ease, transform 0.2s ease;
+    font-size: 1.5em !important;
 }
 
 /* animated underline */
@@ -314,12 +371,6 @@ hr {
 /* Add extra whitespace after About Me section text */
 .about-me-last {
     margin-bottom: 1.2rem !important; /* Extra space after the last About Me paragraph */
-}
-
-/* Refined profile image */
-.profile {
-    width: 220px; /* Slightly smaller from 250px */
-    padding-right: 40px; /* Reduced from 50px */
 }
 
 /* Consistent news list */
