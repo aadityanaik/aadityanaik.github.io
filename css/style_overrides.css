@@ -5,7 +5,8 @@ html {
 body {
     padding-bottom: 30px;
     padding-top: 70px;
-    font-size: 1.0rem; /* Base font size reduced */
+    font-size: 1.0rem;
+    /* Base font size reduced */
     line-height: 1.5;
 }
 
@@ -46,11 +47,12 @@ body {
     padding: 5px;
     /* color: black; */
     font-weight: 500;
-    
+
 }
 
 .intro {
-    padding-top: 15px; /* Reduced for more consistent spacing */
+    padding-top: 15px;
+    /* Reduced for more consistent spacing */
 }
 
 .icon.icon-li {
@@ -108,20 +110,27 @@ body {
 }
 
 .publinks {
-    font-size: 1em; /* Increased from 0.9em for better readability */
-    padding-bottom: 5px; /* Reduced from 10px */
+    font-size: 1em;
+    /* Increased from 0.9em for better readability */
+    padding-bottom: 5px;
+    /* Reduced from 10px */
     margin-top: 3px;
 }
 
 .pubauths {
-    font-size: 1em; /* Increased from 0.9em for better readability */
-    margin-bottom: 2px; /* Add small margin */
+    font-size: 1em;
+    /* Increased from 0.9em for better readability */
+    margin-bottom: 2px;
+    /* Add small margin */
 }
 
 .pubtitle {
-    font-size: 1.2em; /* Increased for better readability */
-    margin-bottom: 3px; /* Reduced from 5px */
-    padding-top: 3px; /* Reduced from 5px */
+    font-size: 1.2em;
+    /* Increased for better readability */
+    margin-bottom: 3px;
+    /* Reduced from 5px */
+    padding-top: 3px;
+    /* Reduced from 5px */
 }
 
 .decls {
@@ -143,21 +152,55 @@ td.right {
 }
 
 .icondiv {
-    font-size: 0.85em; /* Reduced from 0.95em */
+    font-size: 0.85em;
+    /* Reduced from 0.95em */
 }
 
 .navbar-brand {
-    font-size: 1.5em !important; /* Restored to original size */
+    font-size: 1.5em !important;
+    /* Restored to original size */
     color: black !important;
 }
 
 /* Typography improvements for cleaner look */
-h1 { font-size: 1.8rem; font-weight: 600; margin-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; font-weight: 600; margin-bottom: 0.2rem; }
-h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.2rem !important; margin-top: 0 !important; } /* Consistent spacing */
-h4 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem !important; margin-top: 0.3rem; }
-h5 { font-size: 1rem; font-weight: 600; margin-bottom: 0.1rem; }
-h6 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.1rem; }
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem !important;
+    margin-top: 0 !important;
+}
+
+/* Consistent spacing */
+h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem !important;
+    margin-top: 0.3rem;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+}
+
+h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+}
 
 /* Publication category headings - make them stand out */
 .pub-category {
@@ -173,15 +216,18 @@ h6 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.1rem; }
     padding-bottom: 0.4rem;
 }
 
-p { 
-    margin-bottom: 0.5rem !important; /* Consistent paragraph spacing */
+p {
+    margin-bottom: 0.5rem !important;
+    /* Consistent paragraph spacing */
     line-height: 1.5;
-    margin-top: 0 !important; /* No top margin */
+    margin-top: 0 !important;
+    /* No top margin */
 }
 
 /* Clean list styling */
 ul li {
-    margin-bottom: 0.3rem; /* Consistent spacing for all lists */
+    margin-bottom: 0.3rem;
+    /* Consistent spacing for all lists */
 }
 
 /* Enhanced link styling for all content sections */
@@ -198,7 +244,9 @@ a:hover {
 }
 
 /* Clean link styling for About Me and News section links */
-#about a, #news a, .about-me-last a {
+#about a,
+#news a,
+.about-me-last a {
     color: #2563eb;
     font-weight: 600;
     text-decoration: none;
@@ -208,7 +256,9 @@ a:hover {
 }
 
 /* Animated underline effect */
-#about a::after, #news a::after, .about-me-last a::after {
+#about a::after,
+#news a::after,
+.about-me-last a::after {
     content: '';
     position: absolute;
     width: 0;
@@ -220,14 +270,19 @@ a:hover {
     transform: translateX(-50%);
 }
 
-#about a:hover, #news a:hover, .about-me-last a:hover {
+#about a:hover,
+#news a:hover,
+.about-me-last a:hover {
     color: #1d4ed8;
-    transform: scale(1.02); /* More subtle scale effect */
+    transform: scale(1.02);
+    /* More subtle scale effect */
     text-decoration: none;
 }
 
 /* Animated underline on hover */
-#about a:hover::after, #news a:hover::after, .about-me-last a:hover::after {
+#about a:hover::after,
+#news a:hover::after,
+.about-me-last a:hover::after {
     width: 100%;
     background-color: #1d4ed8;
 }
@@ -256,17 +311,26 @@ a:hover {
 
 /* Navbar and icon links - consistent animated link styling */
 .navbar {
-    padding-top: 4px !important; /* tighter navbar spacing */
+    padding-top: 4px !important;
+    /* tighter navbar spacing */
     padding-bottom: 4px !important;
 }
 
 .navbar .navbar-brand {
-    margin-right: 8px !important; /* reduce gap before links */
+    margin-right: 8px !important;
+    /* reduce gap before links */
 }
 
-.navbar .navbar-nav { gap: 2px; }
+.navbar .navbar-nav {
+    gap: 2px;
+}
 
-.navbar a, .icon-link {
+.navbar-nav .nav-link {
+    font-size: 1.1em !important;
+}
+
+.navbar a,
+.icon-link {
     background: none !important;
     border: none !important;
     padding: 0.2rem 0.3rem !important;
@@ -276,10 +340,12 @@ a:hover {
     position: relative;
     transition: color 0.2s ease, transform 0.2s ease;
     font-size: 1.5em !important;
+    vertical-align: middle;
 }
 
 /* animated underline */
-.navbar a::after, .icon-link::after {
+.navbar a::after,
+.icon-link::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -291,75 +357,97 @@ a:hover {
     transition: width 0.2s ease;
 }
 
-.navbar a:hover, .icon-link:hover {
+.navbar a:hover,
+.icon-link:hover {
     transform: scale(1.02);
 }
 
-.navbar a:hover::after, .icon-link:hover::after { width: 100%; }
+.navbar a:hover::after,
+.icon-link:hover::after {
+    width: 100%;
+}
 
 /* Card styling for research interests - cleaner and smaller fonts */
 .card {
     transition: all 0.3s ease !important;
-    border-radius: 12px !important; /* Slightly reduced from 16px */
+    border-radius: 12px !important;
+    /* Slightly reduced from 16px */
     border-top: 0.5px solid #f3f4f6 !important;
     border-left: 0.5px solid #f3f4f6 !important;
     border-right: 0.5px solid #f3f4f6 !important;
     border-bottom: none !important;
     background: #ffffff !important;
-    box-shadow: 
+    box-shadow:
         0 -3px 6px -2px rgba(0, 0, 0, 0.08),
         0 -1px 3px -1px rgba(0, 0, 0, 0.06),
         0 -1px 2px 0px rgba(0, 0, 0, 0.04) !important;
 }
 
 .card:hover {
-    transform: translateY(-3px) scale(1.01) !important; /* Reduced scale */
-    box-shadow: 
+    transform: translateY(-3px) scale(1.01) !important;
+    /* Reduced scale */
+    box-shadow:
         0 -4px 8px -2px rgba(0, 0, 0, 0.12),
         0 -2px 4px -1px rgba(0, 0, 0, 0.08),
         0 -1px 3px 0px rgba(0, 0, 0, 0.06) !important;
 }
 
 .card-title {
-    font-weight: 600; /* Reduced from 700 */
-    margin-bottom: 0.5rem; /* Further reduced spacing */
-    font-size: 0.95rem; /* Reduced from 1.1rem */
+    font-weight: 600;
+    /* Reduced from 700 */
+    margin-bottom: 0.5rem;
+    /* Further reduced spacing */
+    font-size: 0.95rem;
+    /* Reduced from 1.1rem */
     letter-spacing: -0.01em;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.4rem; /* Reduced from 0.5rem */
+    gap: 0.4rem;
+    /* Reduced from 0.5rem */
     text-align: center;
 }
 
 .card-text {
-    line-height: 1.6; /* Reduced from 1.7 */
+    line-height: 1.6;
+    /* Reduced from 1.7 */
     color: #374151;
-    font-size: 0.85rem; /* Reduced from 0.95rem */
+    font-size: 0.85rem;
+    /* Reduced from 0.95rem */
     margin-bottom: 0;
 }
 
 .card-body {
-    padding: 1.2rem !important; /* Reduced from default */
+    padding: 1.2rem !important;
+    /* Reduced from default */
 }
 
 /* Additional spacing and clean layout improvements */
 .research-section {
-    margin-top: 1rem; /* Reduced from 1.5rem */
-    margin-bottom: 1.5rem; /* Reduced from 2rem */
+    margin-top: 1rem;
+    /* Reduced from 1.5rem */
+    margin-bottom: 1.5rem;
+    /* Reduced from 2rem */
 }
 
 hr {
     border: none !important;
     height: 1px !important;
-    background-color: #d1d5db !important; /* Solid, visible divider line */
-    color: transparent !important; /* Override inline styles */
-    margin: 0.8rem 0 !important; /* Consistent spacing with !important to override inline */
+    background-color: #d1d5db !important;
+    /* Solid, visible divider line */
+    color: transparent !important;
+    /* Override inline styles */
+    margin: 0.8rem 0 !important;
+    /* Consistent spacing with !important to override inline */
 }
 
 /* Reset and create consistent section spacing */
-#about, #news, #research-interests, #publications {
-    margin-top: 0 !important; /* Let HR handle spacing */
+#about,
+#news,
+#research-interests,
+#publications {
+    margin-top: 0 !important;
+    /* Let HR handle spacing */
     margin-bottom: 0.8rem !important;
 }
 
@@ -370,18 +458,21 @@ hr {
 
 /* Add extra whitespace after About Me section text */
 .about-me-last {
-    margin-bottom: 1.2rem !important; /* Extra space after the last About Me paragraph */
+    margin-bottom: 1.2rem !important;
+    /* Extra space after the last About Me paragraph */
 }
 
 /* Consistent news list */
 #news ul {
     padding-left: 1.2rem;
-    margin-top: 0.3rem !important; /* Small gap after News heading */
+    margin-top: 0.3rem !important;
+    /* Small gap after News heading */
     margin-bottom: 0.5rem !important;
 }
 
 #news li {
-    margin-bottom: 0.3rem !important; /* Match general ul li spacing */
+    margin-bottom: 0.3rem !important;
+    /* Match general ul li spacing */
     line-height: 1.5;
 }
 
@@ -406,12 +497,12 @@ hr {
     color: #212529;
     text-decoration: none;
     transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .pub-btn:active {
     transform: translateY(0);
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 /* Different button types */
@@ -494,7 +585,9 @@ hr {
 }
 
 /* Ensure consistent spacing for all section headings */
-#about h3, #news h3, #publications h3 {
+#about h3,
+#news h3,
+#publications h3 {
     margin-bottom: 0.2rem !important;
     margin-top: 0 !important;
 }
@@ -502,8 +595,10 @@ hr {
 /* Publication section styling with hover effects */
 .pub-section {
     transition: all 0.3s ease !important;
-    padding: 0.4rem 0.6rem !important; /* Reduced top/bottom, keep left/right */
-    margin-bottom: 0.2rem !important; /* Minimal margin */
+    padding: 0.4rem 0.6rem !important;
+    /* Reduced top/bottom, keep left/right */
+    margin-bottom: 0.2rem !important;
+    /* Minimal margin */
     border-left: 3px solid transparent !important;
     border-radius: 8px !important;
     background: rgba(249, 250, 251, 0.3) !important;
@@ -517,9 +612,11 @@ hr {
 }
 
 .pub-section .pubtitle {
-    font-size: 1.05rem !important; /* Reduced from 1.2rem to be smaller than h4 */
+    font-size: 1.05rem !important;
+    /* Reduced from 1.2rem to be smaller than h4 */
     font-weight: 600 !important;
-    margin-bottom: 0.2rem !important; /* Further reduced */
+    margin-bottom: 0.2rem !important;
+    /* Further reduced */
     color: #1f2937 !important;
     line-height: 1.3;
     transition: color 0.3s ease !important;
@@ -531,12 +628,14 @@ hr {
 
 .pub-section .pubauths {
     font-size: 1em !important;
-    margin-bottom: 0.2rem !important; /* Further reduced */
+    margin-bottom: 0.2rem !important;
+    /* Further reduced */
     color: #4b5563 !important;
 }
 
 .pub-section .publinks {
     font-size: 1em !important;
     margin-bottom: 0 !important;
-    padding-top: 0.1rem !important; /* Minimal padding */
+    padding-top: 0.1rem !important;
+    /* Minimal padding */
 }
