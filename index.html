@@ -15,13 +15,12 @@ menu_weight: 1
 	<div class='p-2 flex profile-info'>
 		<br>
 		<font size="+1" class="profile-name"><strong>Aaditya Naik</strong></font><br>
-		Final-Year PhD Student, AI for Software Engineering <br>
-		<a href="http://www.cis.upenn.edu">Computer and Information Science</a><br>
-		<a href="http://www.upenn.edu">University of Pennsylvania</a><br>
+		Senior Applied Scientist, Oracle<br>
+		Ph.D., Computer and Information Science, University of Pennsylvania (2026)<br>
 		Email: <a href="mailto:asnaik@seas.upenn.edu" target="_blank">asnaik@seas.upenn.edu</a><br>
 		<div class="d-flex">
-			<a href="assets/CV.pdf" class="icon-link d-flex align-items-center" target="_blank"
-				style="padding-left: 0; font-size: 1.2rem !important;">C.V.</a>
+			<!-- <a href="assets/CV.pdf" class="icon-link d-flex align-items-center" target="_blank"
+				style="padding-left: 0; font-size: 1.2rem !important;">C.V.</a> -->
 			<!-- | -->
 			<a href="https://scholar.google.com/citations?user=EfE0jh4AAAAJ&hl=en"
 				class="icon-link d-flex align-items-center" target="_blank"><i
@@ -43,83 +42,65 @@ menu_weight: 1
 	<div class="col-md-12" id="about">
 		<h3>About Me</h3>
 		<p>
-			Welcome to my corner of the internet! I am a Ph.D. student at the <a href="https://www.upenn.edu">University
-				of Pennsylvania</a>, advised by Prof. <a href="https://www.cis.upenn.edu/~mhnaik/">Mayur Naik</a>.
-			My research sits at the intersection of machine learning and software engineering, focusing on neurosymbolic
-			approaches to AI-assisted software development.
-			I develop <strong>neurosymbolic systems</strong> that integrate symbolic reasoning directly into ML
-			architectures to enable foundation models to reason in a reliable and trustworthy manner.
+			I am a Senior Applied Scientist at Oracle, where I work on agentic AI systems. My research focuses on building reliable and verifiable AI agents. In particular, I study how increasingly capable models can reason, act, and interact with complex environments over long-horizon tasks while remaining grounded in explicit structure and constraints. I am especially interested in rigorous evaluation of agent behavior and in using executable feedback, structured representations, and verification to make agents more reliable. I completed my Ph.D. in Computer and Information Science at the <a href="https://www.upenn.edu">University of Pennsylvania</a> in 2026, advised by <a href="https://www.cis.upenn.edu/~mhnaik/">Mayur Naik</a>.
 		</p>
-		<p>
-			My research has been supported by the <a href="https://www.google.com/about/company/phd-fellowship/">Google
-				PhD Fellowship</a> in Programming Technology and Software Engineering since 2023. I've also had the
-			privilege of working on related problems in the industry. At Microsoft Research, I worked with the RiSE team
-			to develop a test-driven interactive code generation framework. At Oracle, I investigated and improved the
-			capabilities of LLMs for solving constraint-optimization tasks.
-		</p>
-		<div
-			style="background-color: rgba(239, 246, 255, 0.6); border-left: 5px solid #2196f3; padding: 15px; margin: 20px 0 20px 20px; border-radius: 4px;">
-			📢 <strong>Update:</strong> I am on the academic job market! You can find my
-				<a href="assets/CV.pdf" target="_blank">CV</a>,
-				<a href="assets/Research_Statement.pdf" target="_blank">Research Statement</a>, and
-				<a href="assets/Teaching_Statement.pdf" target="_blank">Teaching Statement</a> here.
-		</div>
 	</div>
 </div>
 
 <hr style="color: black; height: 1.5px; background-color:black;" />
 
 <div class="row">
-	<div class="col-md-12" id="research">
-		<h3>Research</h3>
-		My research focuses on developing neurosymbolic frameworks and solutions for addressing challenges in software
-		engineering. Specifically, my research focuses on the following themes:
+    <div class="col-md-12" id="research">
+        <h3>Research Interests</h3>
 
-		<div style="text-align: center; margin: 30px 0;">
-			<img src="assets/research_structure.png" alt="Research Structure"
-				style="width: 85%; height: auto; max-width: 100%;">
-		</div>
+        <p>
+            I am generally interested in three areas of research:
+        </p>
 
-		<ul>
-			<li>
-				<strong>Neurosymbolic Agents for Software Engineering:</strong>
-				To apply AI to software engineering, we must treat programs as structured graphs governed by control
-				flow, not merely as text. My work in this area focuses on answering two important questions: <em>how to
-					effectively represent programs within the context of coding agents</em> and <em>how to generate
-					verifiable guarantees to serve as feedback for model-generated code</em>.
-				My work on systems like CodeTrek <span style="white-space: nowrap;">[<a
-						href="https://openreview.net/pdf?id=WQc075jmBmf" target="_blank">ICLR 2022</a>]</span> for
-				neurosymbolic representations of programs, and Code2Inv <span style="white-space: nowrap;">[<a
-						href="assets/papers/cav20_code2inv.pdf" target="_blank">CAV 2020</a>]</span> for
-				neurosymbolically verifying programs, aims to address these questions.
-			</li>
-			<li>
-				<strong>Program Synthesis for Coding Agents:</strong>
-				Beyond code generation, coding agents require specifications for program safety and alignment. My work
-				in this area focuses on synthesizing program safety specifications, such as in Sporq <span
-					style="white-space: nowrap;">[<a href="assets/papers/uist21_sporq.pdf" target="_blank">UIST
-						2021</a>]</span>, and model alignment specifications, like in SQRL <span
-					style="white-space: nowrap;">[<a href="https://arxiv.org/pdf/2303.01433.pdf" target="_blank">ICML
-						2023</a>]</span>. These works leverage foundational techniques from program synthesis that I
-				have developed, like Libra <span style="white-space: nowrap;">[<a href="assets/papers/vldb24_libra.pdf"
-						target="_blank">VLDB 2024</a>]</span>, EGS <span style="white-space: nowrap;">[<a
-						href="assets/papers/pldi21_egs.pdf" target="_blank">PLDI 2021</a>]</span>, and GenSynth <span
-					style="white-space: nowrap;">[<a href="assets/papers/aaai21_gensynth.pdf" target="_blank">AAAI
-						2021</a>]</span>.
-			</li>
-			<li>
-				<strong>General-Purpose Neurosymbolic Frameworks:</strong>
-				Implementing the verification and synthesis tools described above requires infrastructure that is
-				robust, expressive, and can scale to complex logic over large datasets. I have developed frameworks for
-				programming with foundation models, such as Dolphin <span style="white-space: nowrap;">[<a
-						href="https://arxiv.org/pdf/2410.03348" target="_blank">ICML 2025</a>]</span> for <em>training
-					and fine-tuning</em>, and TorchQL <span style="white-space: nowrap;">[<a
-						href="https://arxiv.org/abs/2308.06686" target="_blank">OOPSLA 2024</a>]</span> for
-				<em>analyzing and debugging models at inference time</em>.
-			</li>
-		</ul>
+        <h5><strong>Reliable Agentic Reasoning</strong></h5>
 
-	</div>
+        <p>
+            I am interested in how to make AI agents reason and act reliably over long-horizon tasks.
+            As agents interact with tools, retrieve information, and make decisions over many steps,
+            errors in grounding, reasoning, or intermediate actions can easily compound.
+            My work has explored different ways of making such reasoning more reliable, from
+            <a href="https://arxiv.org/pdf/2303.01433.pdf" target="_blank">SQRL</a>,
+            which extracts statistical rules and constraints from data, to
+            <a href="assets/papers/colm_26.pdf" target="_blank">recent work</a> on verifying model-generated mathematical proofs.
+            Going forward, I am interested in agents that can remain grounded throughout long-horizon execution,
+            reason under explicit constraints, and use verification to detect errors before they propagate.
+        </p>
+
+        <h5><strong>AI for Code</strong></h5>
+
+        <p>
+            Code is a natural setting for studying reliable agents because programs have rich structure,
+            can be executed, and often admit precise notions of correctness. My work in this area has explored
+            how models can reason over structured representations of programs, as in
+            <a href="https://openreview.net/pdf?id=WQc075jmBmf" target="_blank">CodeTrek</a>,
+            use executable feedback during generation, as in
+            <a href="assets/papers/tse24_ticoder.pdf" target="_blank">TiCoder</a>,
+            and interact with formal verification, as in
+            <a href="assets/papers/cav20_code2inv.pdf" target="_blank">Code2Inv</a>.
+            I am interested in extending these ideas to coding agents that operate over larger codebases
+            and longer trajectories, where agents must reason about program structure, use tools,
+            incorporate feedback, and verify the changes they make.
+        </p>
+
+        <h5><strong>Neurosymbolic AI Systems</strong></h5>
+
+        <p>
+            My work has explored ways to combine the flexibility of neural models with the structure and
+            guarantees provided by symbolic reasoning. I have developed systems such as
+            <a href="https://arxiv.org/pdf/2410.03348" target="_blank">Dolphin</a>,
+            for integrating symbolic reasoning directly into neural learning, and
+            <a href="https://arxiv.org/abs/2308.06686" target="_blank">TorchQL</a>,
+            for expressing and checking constraints over machine learning systems.
+            I am interested in building scalable neurosymbolic systems in which foundation models can
+            interact directly with structured state, executable specifications, and verification procedures,
+            and in using these abstractions as building blocks for more reliable agents.
+        </p>
+    </div>
 </div>
 
 <hr style="color: black; height: 1.5px; background-color:black;" />

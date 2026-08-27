@@ -246,6 +246,7 @@ a:hover {
 /* Clean link styling for About Me and News section links */
 #about a,
 #news a,
+#research a,
 .about-me-last a {
     color: #2563eb;
     font-weight: 600;
@@ -258,6 +259,7 @@ a:hover {
 /* Animated underline effect */
 #about a::after,
 #news a::after,
+#research a::after,
 .about-me-last a::after {
     content: '';
     position: absolute;
@@ -272,6 +274,7 @@ a:hover {
 
 #about a:hover,
 #news a:hover,
+#research a:hover,
 .about-me-last a:hover {
     color: #1d4ed8;
     transform: scale(1.02);
@@ -282,13 +285,14 @@ a:hover {
 /* Animated underline on hover */
 #about a:hover::after,
 #news a:hover::after,
+#research a:hover::after,
 .about-me-last a:hover::after {
     width: 100%;
     background-color: #1d4ed8;
 }
 
 /* Button-style links for research section */
-#research a {
+/* #research a {
     display: inline-block;
     padding: 1px 4px;
     margin: 0 1px;
@@ -307,7 +311,7 @@ a:hover {
     border-color: #112e6c;
     color: #ffffff;
     text-decoration: none;
-}
+} */
 
 /* Navbar and icon links - consistent animated link styling */
 .navbar {
